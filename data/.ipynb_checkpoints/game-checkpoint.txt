@@ -1,0 +1,427 @@
+player: testPlayer
+map:OS
+
+    room:AIA,Alabaster Icelands A,Dark and Ice types create a stark and cold landscape teeming with formidable foes.,false
+        area:ICELAND
+        exit:East,Path to Alabaster Icelands B,East path leading to Alabaster Icelands B.,AIB,false
+        exit:South,Path to Alabaster Icelands C,South path leading to Alabaster Icelands C.,AIC,false
+
+    room:AIB,Alabaster Icelands B,Dark and Ice types create a stark and cold landscape teeming with formidable foes.,false
+        area:ICELAND
+        exit:West,Path to Alabaster Icelands A,West path leading to Alabaster Icelands A.,AIA,false
+        exit:South,Path to Alabaster Icelands D,South path leading to Alabaster Icelands D.,AID,false
+        exit:East,Path to Floaroma Meadows A,East path leading to Floaroma Meadows A.,FMA,false
+
+    room:AIC,Alabaster Icelands C,Dark and Ice types create a stark and cold landscape teeming with formidable foes.,false
+        area:ICELAND
+        exit:North,Path to Alabaster Icelands A,North path leading to Alabaster Icelands A.,AIA,false
+        exit:East,Path to Alabaster Icelands D,East path leading to Alabaster Icelands D.,AID,false
+        exit:South,Path to Alabaster Icelands E,South path leading to Alabaster Icelands E.,AIE,false
+
+    room:AID,Alabaster Icelands D,Dark and Ice types create a stark and cold landscape teeming with formidable foes.,false
+        area:ICELAND
+        exit:West,Path to Alabaster Icelands C,West path leading to Alabaster Icelands C.,AIC,false
+        exit:South,Path to Alabaster Icelands F,South path leading to Alabaster Icelands F.,AIF,false
+        exit:North,Path to Alabaster Icelands B,North path leading to Alabaster Icelands B.,AIB,false
+        exit:East,Path to Floaroma Meadows D,East path leading to Floaroma Meadows D.,FMD,false
+
+    room:AIE,Alabaster Icelands E,Dark and Ice types create a stark and cold landscape teeming with formidable foes.,false
+        area:ICELAND
+        exit:North,Path to Alabaster Icelands C,North path leading to Alabaster Icelands C.,AIC,false
+        exit:East,Path to Alabaster Icelands F,East path leading to Alabaster Icelands F.,AIF,false
+        exit:South,Path to Mightywide River A,South path leading to Mightywide River A.,MWRA,false
+
+    room:AIF,Alabaster Icelands F,Dark and Ice types create a stark and cold landscape teeming with formidable foes.,false
+        area:ICELAND
+        exit:West,Path to Alabaster Icelands E,West path leading to Alabaster Icelands E.,AIE,false
+        exit:North,Path to Alabaster Icelands D,North path leading to Alabaster Icelands D.,AID,false
+        exit:East,Path to Floaroma Meadows F,East path leading to Floaroma Meadows F.,FMF,false
+        exit:South,Path to Mightywide River B,South path leading to Mightywide River B.,MWRB,false
+
+
+
+    room:FMA,Floaroma Meadows A,Fire and Bug types dominate turning the tranquil meadow into a vibrant fiery haven.,false
+        area:MEADOW
+        exit:East,Path to Floaroma Meadows B,East path leading to Floaroma Meadows B.,FMB,false
+        exit:South,Path to Floaroma Meadows D,South path leading to Floaroma Meadows D.,FMD,false
+        exit:West,Path to Alabaster Icelands B,West path leading to Alabaster Icelands B.,AIB,false
+
+    room:FMB,Floaroma Meadows B,Fire and Bug types dominate turning the tranquil meadow into a vibrant fiery haven.,false
+        area:MEADOW
+        exit:East,Path to Floaroma Meadows C,East path leading to Floaroma Meadows C.,FMC,false
+        exit:South,Path to Pokemon Centre,South path leading to the Pokemon Centre.,PC,false
+        exit:West,Path to Floaroma Meadows A,West path leading to Floaroma Meadows A.,FMA,false
+            container:RC,RubyChest,A chest made out of ruby. You might need a certain key to unlock it,false
+                item:YANG_RELIC,RelicYANG,An unique relic has a carving RelicYANG that seems to be missing a piece.,false
+
+
+    room:FMC,Floaroma Meadows C,Fire and Bug types dominate turning the tranquil meadow into a vibrant fiery haven.,false
+        area:MEADOW
+        exit:East,Path to Upgrade Bench,East path leading to Upgrade Bench.,UB,false
+        exit:South,Path to Floaroma Meadows E,South path leading to Floaroma Meadows E.,FME,false
+        exit:West,Path to Floaroma Meadows B,West path leading to Floaroma Meadows B.,FMB,false
+
+    room:FMD,Floaroma Meadows D,Fire and Bug types dominate turning the tranquil meadow into a vibrant fiery haven.,false
+        area:MEADOW
+        exit:North,Path to Floaroma Meadows A,North path leading to Floaroma Meadows A.,FMA,false
+        exit:East,Path to Pokemon Centre,East path leading to Pokemon Centre.,PC,false
+        exit:South,Path to Floaroma Meadows F,South path leading to Floaroma Meadows F.,FMF,false
+        exit:West,Path to Alabaster Icelands D,West path leading to Alabaster Icelands D.,AID,false
+
+    room:FME,Floaroma Meadows E,Fire and Bug types dominate turning the tranquil meadow into a vibrant fiery haven.,false
+        area:MEADOW
+        exit:North,Path to Floaroma Meadows C,North path leading to Floaroma Meadows C.,FMC,false
+        exit:East,Path to Equipment Shop,East path leading to Equipment Shop.,ES,false
+        exit:South,Path to Floaroma Meadows H,South path leading to Floaroma Meadows H.,FMH,false
+        exit:West,Path to Pokemon Centre,West path leading to Pokemon Centre.,PC,false
+
+    room:FMF,Floaroma Meadows F,Fire and Bug types dominate turning the tranquil meadow into a vibrant fiery haven.,false
+        area:MEADOW
+        exit:North,Path to Floaroma Meadows D,North path leading to Floaroma Meadows D.,FMD,false
+        exit:East,Path to Floaroma Meadows G,East path leading to Floaroma Meadows G.,FMG,false
+        exit:South,Path to Mightywide River C,South path leading to Mightywide River C.,MWRC,false
+        exit:West,Path to Alabaster Icelands F,West path leading to Alabaster Icelands F.,AIF,false
+
+    room:FMG,Floaroma Meadows G,Fire and Bug types dominate turning the tranquil meadow into a vibrant fiery haven.,false
+        area:MEADOW
+        exit:North,Path to Pokemon Centre,North path leading to Pokemon Centre.,PC,false
+        exit:East,Path to Floaroma Meadows H,East path leading to Floaroma Meadows H.,FMH,false
+        exit:South,Path to Tropica A,South path leading to Tropica A.,TA,false
+        exit:West,Path to Floaroma Meadows F,West path leading to Floaroma Meadows F.,FMF,false
+
+    room:FMH,Floaroma Meadows H,Fire and Bug types dominate turning the tranquil meadow into a vibrant fiery haven.,false
+        area:MEADOW
+        exit:North,Path to Floaroma Meadows E,North path leading to Floaroma Meadows E.,FME,false
+        exit:East,Path to Floaroma Meadows I,East path leading to Floaroma Meadows I.,FMI,false
+        exit:South,Path to Tropica B,South path leading to Tropica B.,TB,false
+        exit:West,Path to Floaroma Meadows G,West path leading to Floaroma Meadows G.,FMG,false
+
+    room:FMI,Floaroma Meadows I,Fire and Bug types dominate turning the tranquil meadow into a vibrant fiery haven.,false
+        area:MEADOW
+        exit:North,Path to Equipment Shop,North path leading to Equipment Shop.,ES,false
+        exit:East,Path to Forest F,East path leading to Forest F.,FF,false
+        exit:South,Path to Melemele Fields A,South path leading to Melemele Fields A.,MFA,false
+        exit:West,Path to Floaroma Meadows H,West path leading to Floaroma Meadows H.,FMH,false
+
+
+
+    room:UB,Upgrade Bench,Invented by an infamous alchemist. This bench allows you to power up certain Pokémon using certain items.,false
+        area:MISC
+        exit:East,Path to Forest A,East path leading to Forest A.,FA,false
+        exit:South,Path to Equipment Shop,South path leading to Equipment Shop.,ES,false
+        exit:West,Path to Floaroma Meadows C,West path leading to Floaroma Meadows C.,FMC,false
+
+    room:PC,Pokemon Centre,The nurses here are top-notched when it comes to healing your Pokémon.,false
+        area:MISC
+        exit:North,Path to Floaroma Meadows B,North path leading to Floaroma Meadows B.,FMB,false
+        exit:East,Path to Floaroma Meadows E,East path leading to Floaroma Meadows E.,FME,false
+        exit:South,Path to Floaroma Meadows G,South path leading to Floaroma Meadows G.,FMG,false
+        exit:West,Path to Floaroma Meadows D,West path leading to Floaroma Meadows D.,FMD,false
+
+    room:ES,Equipment Shop,A shop selling various equipments. These equipments can then be used to combine into items which might be useful on your journey.,false
+        area:MISC
+        exit:North,Path to Upgrade Bench,North path leading to Upgrade Bench.,UB,false
+        exit:East,Path to Forest C,East path leading to Forest C.,FC,false
+        exit:South,Path to Floaroma Meadows I,South path leading to Floaroma Meadows I.,FMI,false
+        exit:West,Path to Floaroma Meadows E,West path leading to Floaroma Meadows E.,FME,false
+
+    room:OS,Oakman's Shed,The beginning of everything. This is where you met Professor Oakman.,false
+        area:MISC
+        exit:South,Path to Forest E,South path leading to Forest E.,FE,false
+        exit:West,Path to Forest B,West path leading to Forest B.,FB,false
+
+    room:FA,Forest A,Electric and Ghost types thrive which adds an eerie and electrifying ambiance.,false
+        area:FOREST
+        exit:East,Path to Forest B,East path leading to Forest B.,FB,false
+        exit:South,Path to Forest C,South path leading to Forest C.,FC,false
+        exit:West,Path to Upgrade Bench,West path leading to Upgrade Bench.,UB,false
+
+    room:FB,Forest B,Electric and Ghost types thrive which adds an eerie and electrifying ambiance.,false
+        area:FOREST
+        exit:East,Path to Oakman's Shed,East path leading to Oakman's Shed.,OS,false
+        exit:South,Path to Forest D,South path leading to Forest D.,FD,false
+        exit:West,Path to Forest A,West path leading to Forest A.,FA,false
+
+    room:FC,Forest C,Electric and Ghost types thrive which adds an eerie and electrifying ambiance.,false
+        area:FOREST
+        exit:North,Path to Forest A,North path leading to Forest A.,FA,false
+        exit:East,Path to Forest D,East path leading to Forest D.,FD,false
+        exit:South,Path to Forest F,South path leading to Forest F.,FF,false
+        exit:West,Path to Equipment Shop,West path leading to Equipment Shop.,ES,false
+
+    room:FD,Forest D,Electric and Ghost types thrive which adds an eerie and electrifying ambiance.,false
+        area:FOREST
+        exit:North,Path to Forest B,North path leading to Forest B.,FB,false
+        exit:East,Path to Forest E,East path leading to Forest E.,FE,false
+        exit:South,Path to Forest G,South path leading to Forest G.,FG,false
+        exit:West,Path to Forest C,West path leading to Forest C.,FC,false
+
+    room:FE,Forest E,Electric and Ghost types thrive which adds an eerie and electrifying ambiance.,false
+        area:FOREST
+        exit:North,Path to Oakman's Shed,North path leading to Oakman's Shed.,OS,false
+        exit:South,Path to Forest H,South path leading to Forest H.,FH,false
+        exit:West,Path to Forest D,West path leading to Forest D.,FD,false
+
+    room:FF,Forest F,Electric and Ghost types thrive which adds an eerie and electrifying ambiance.,false
+        area:FOREST
+        exit:North,Path to Forest C,North path leading to Forest C.,FC,false
+        exit:East,Path to Forest G,East path leading to Forest G.,FG,false
+        exit:South,Path to Melemele Fields B,South path leading to Melemele Fields B.,MFB,false
+        exit:West,Path to Floaroma Meadows I,West path leading to Floaroma Meadows I.,FMI,false
+
+    room:FG,Forest G,Electric and Ghost types thrive which adds an eerie and electrifying ambiance.,false
+        area:FOREST
+        exit:North,Path to Forest D,North path leading to Forest D.,FD,false
+        exit:East,Path to Forest H,East path leading to Forest H.,FH,false
+        exit:South,Path to Melemele Fields C,South path leading to Melemele Fields C.,MFC,false
+        exit:West,Path to Forest F,West path leading to Forest F.,FF,false
+
+    room:FH,Forest H,Electric and Ghost types thrive which adds an eerie and electrifying ambiance.,false
+        area:FOREST
+        exit:North,Path to Forest E,North path leading to Forest E.,FE,false
+        exit:South,Path to Melemele Fields D,South path leading to Melemele Fields D.,MFD,false
+        exit:West,Path to Forest G,West path leading to Forest G.,FG,false
+
+    room:MWRA,Mightywide River A,Water and Steel types navigate this flowing habitat with strength and fluidity.,false
+        area:RIVER
+        exit:North,Path to Alabaster Icelands E,North path leading to Alabaster Icelands E.,AIE,false
+        exit:East,Path to Mightywide River B,South path leading to Mightywide River B.,MWRB,false
+        exit:South,Path to Ocean Vivillon A,East path leading to Ocean Vivillon A.,OVA,false
+
+    room:MWRB,Mightywide River B,Water and Steel types navigate this flowing habitat with strength and fluidity.,false
+        area:RIVER
+        exit:North,Path to Alabaster Icelands F,North path leading to Alabaster Icelands F.,AIF,false
+        exit:East,Path to Mightywide River C,East path leading to Mightywide River C.,MWRC,false
+        exit:South,Path to Ocean Vivillon B,South path leading to Ocean Vivillon B.,OVB,false
+        exit:West,Path to Mightywide River A,West path leading to Mightywide River A.,MWRA,false
+
+    room:MWRC,Mightywide River C,Water and Steel types navigate this flowing habitat with strength and fluidity.,false
+        area:RIVER
+        exit:North,Path to Floaroma Meadows F,North path leading to Floaroma Meadows F.,FMF,false
+        exit:East,Path to Tropica A,East path leading to Tropica A.,TA,false
+        exit:South,Path to Ocean Vivillon C,South path leading to Ocean Vivillon C.,OVC,false
+        exit:West,Path to Mightywide River B,West path leading to Mightywide River B.,MWRB,false
+
+    room:TA,Tropica A,Grass and Electric types flourish making this area a lively and lush environment.,false
+        area:TROPICA
+        exit:North,Path to Floaroma Meadows G,North path leading to Floaroma Meadows G.,FMG,false
+        exit:East,Path to Tropica B,East path leading to Tropica B.,TB,false
+        exit:South,Path to Tropica C,South path leading to Tropica C.,TC,false
+        exit:West,Path to Mightywide River C,West path leading to Mightywide River C.,MWRC,false
+
+    room:TB,Tropica B,Grass and Electric types flourish making this area a lively and lush environment.,false
+        area:TROPICA
+        exit:North,Path to Floaroma Meadows H,North path leading to Floaroma Meadows H.,FMH,false
+        exit:East,Path to Melemele Fields A,East path leading to Melemele Fields A.,MFA,false
+        exit:South,Path to Tropica D,South path leading to Tropica D.,TD,false
+        exit:West,Path to Tropica A,West path leading to Tropica A.,TA,false
+
+    room:TC,Tropica C,Grass and Electric types flourish making this area a lively and lush environment.,false
+        area:TROPICA
+        exit:North,Path to Tropica A,North path leading to Tropica A.,TA,false
+        exit:East,Path to Tropica D,East path leading to Tropica D.,TD,false
+        exit:South,Path to Tropica E,South path leading to Tropica E.,TE,false
+        exit:West,Path to Ocean Vivillon C,West path leading to Ocean Vivillon C.,OVC,false
+
+    room:TD,Tropica D,Grass and Electric types flourish making this area a lively and lush environment.,false
+        area:TROPICA
+        exit:North,Path to Tropica B,North path leading to Tropica B.,TB,false
+        exit:East,Path to Melemele Fields E,East path leading to Melemele Fields E.,MFE,false
+        exit:South,Path to Tropica F,South path leading to Tropica F.,TF,false
+        exit:West,Path to Tropica C,West path leading to Tropica C.,TC,false
+
+    room:TE,Tropica E,Grass and Electric types flourish making this area a lively and lush environment.,false
+        area:TROPICA
+        exit:North,Path to Tropica C,North path leading to Tropica C.,TC,false
+        exit:East,Path to Tropica F,East path leading to Tropica F.,TF,false
+        exit:South,Path to Pier,South path leading to Pier.,P,false
+        exit:West,Path to Ocean Vivillon F,West path leading to Ocean Vivillon F.,OVF,false
+
+    room:TF,Tropica F,Grass and Electric types flourish making this area a lively and lush environment.,false
+        area:TROPICA
+        exit:North,Path to Tropica D,North path leading to Tropica D.,TD,false
+        exit:East,Path to Coastal Rest Area A,East path leading to Coastal Rest Area A.,CRAA,false
+        exit:South,Path to Coastal Biome A,South path leading to Coastal Biome A.,CBA,false
+        exit:West,Path to Tropica E,West path leading to Tropica E.,TE,false
+
+    room:MFA,Melemele Fields A,Normal and Psychic types wander freely. Making the fields a serene yet mystical area.,false
+        area:FIELDS
+        exit:North,Path to Floaroma Meadows I,North path leading to Floaroma Meadows I.,FMI,false
+        exit:East,Path to Melemele Fields B,East path leading to Melemele Fields B.,MFB,false
+        exit:South,Path to Melemele Fields E,South path leading to Melemele Fields E.,MFE,false
+        exit:West,Path to Tropica B,West path leading to Tropica B.,TB,false
+
+    room:MFB,Melemele Fields B,Normal and Psychic types wander freely. Making the fields a serene yet mystical area.,false
+        area:FIELDS
+        exit:North,Path to Forest F,North path leading to Forest F.,FF,false
+        exit:East,Path to Melemele Fields C,East path leading to Melemele Fields C.,MFC,false
+        exit:South,Path to Melemele Fields F,South path leading to Melemele Fields F.,MFF,false
+        exit:West,Path to Melemele Fields A,West path leading to Melemele Fields A.,MFA,false
+
+    room:MFC,Melemele Fields C,Normal and Psychic types wander freely. Making the fields a serene yet mystical area.,false
+        area:FIELDS
+        exit:North,Path to Forest G,North path leading to Forest G.,FG,false
+        exit:East,Path to Melemele Fields D,East path leading to Melemele Fields D.,MFD,false
+        exit:South,Path to Melemele Fields G,South path leading to Melemele Fields G.,MFG,false
+        exit:West,Path to Melemele Fields B,West path leading to Melemele Fields B.,MFB,false
+
+    room:MFD,Melemele Fields D,Normal and Psychic types wander freely. Making the fields a serene yet mystical area.,false
+        area:FIELDS
+        exit:North,Path to Forest H,North path leading to Forest H.,FH,false
+        exit:South,Path to Melemele Fields H,South path leading to Melemele Fields H.,MFH,false
+        exit:West,Path to Melemele Fields C,West path leading to Melemele Fields C.,MFC,false
+        container:DC,Diamond Chest,A chest made out of diamond.,false
+            item:TORN_NOTE,TornNote,A note that displays Meadows and Fields -- two of a kind.,true
+            equipment:DIAMOND_KEY,DiamondKey,A diamond key with delicate carvings.,true,false,open,RC,treasure unlocked,You have unlocked the Ruby Chest! Use <Look room> to see what is in the chest!
+
+ 
+
+    room:MFE,Melemele Fields E,Normal and Psychic types wander freely. Making the fields a serene yet mystical area.,false
+        area:FIELDS
+        exit:North,Path to Melemele Fields A,North path leading to Melemele Fields A.,MFA,false
+        exit:East,Path to Melemele Fields F,East path leading to Melemele Fields F.,MFF,false
+        exit:South,Path to Coastal Rest Area A,South path leading to Coastal Rest Area A.,CRAA,false
+        exit:West,Path to Tropica D,West path leading to Tropica D.,TD,false
+
+    room:MFF,Melemele Fields F,Normal and Psychic types wander freely. Making the fields a serene yet mystical area.,false
+        area:FIELDS
+        exit:North,Path to Melemele Fields B,North path leading to Melemele Fields B.,MFB,false
+        exit:East,Path to Melemele Fields G,East path leading to Melemele Fields G.,MFG,false
+        exit:South,Path to Coastal Rest Area B,South path leading to Coastal Rest Area B.,CRAB,false
+        exit:West,Path to Melemele Fields E,West path leading to Melemele Fields E.,MFE,false
+
+    room:MFG,Melemele Fields G,Normal and Psychic types wander freely. Making the fields a serene yet mystical area.,false
+        area:FIELDS
+        exit:North,Path to Melemele Fields C,North path leading to Melemele Fields C.,MFC,false
+        exit:East,Path to Melemele Fields H,East path leading to Melemele Fields H.,MFH,false
+        exit:South,Path to Coastal Rest Area C,South path leading to Coastal Rest Area C.,CRAC,false
+        exit:West,Path to Melemele Fields F,West path leading to Melemele Fields F.,MFF,false
+
+    room:MFH,Melemele Fields H,Normal and Psychic types wander freely. Making the fields a serene yet mystical area.,false
+        area:FIELDS
+        exit:North,Path to Melemele Fields D,North path leading to Melemele Fields D.,MFD,false
+        exit:South,Path to Coastal Rest Area 4,South path leading to Coastal Rest Area D.,CRAD,false
+        exit:West,Path to Melemele Fields G,West path leading to Melemele Fields G.,MFG,false
+
+    room:CRAA,Coastal Rest Area A,A peaceful spot to rest by the coast.,false
+        area:COAST
+        exit:North,Path to Melemele Fields E,North path leading to Melemele Fields E.,MFE,false
+        exit:East,Path to Coastal Rest Area B,East path leading to Coastal Rest Area B.,CRAB,false
+        exit:South,Path to Coastal Biome B,South path leading to Coastal Biome B.,CBB,false
+        exit:West,Path to Tropica F,West path leading to Tropica F.,TF,false
+
+    room:CRAB,Coastal Rest Area B,The waves lap gently at the shore.,false
+        area:COAST
+        exit:North,Path to Melemele Fields F,North path leading to Melemele Fields F.,MFF,false
+        exit:East,Path to Coastal Rest Area C,East path leading to Coastal Rest Area C.,CRAC,false
+        exit:South,Path to Coastal Biome C,South path leading to Coastal Biome C.,CBC,false
+        exit:West,Path to Coastal Rest Area A,West path leading to Coastal Rest Area A.,CRAA,false
+
+    room:CRAC,Coastal Rest Area C,You can see seabirds nesting on the cliffs.,false
+        area:COAST
+        exit:North,Path to Melemele Fields G,North path leading to Melemele Fields G.,MFG,false
+        exit:East,Path to Coastal Rest Area D,East path leading to Coastal Rest Area D.,CRAD,false
+        exit:South,Path to Coastal Biome D,South path leading to Coastal Biome D.,CBD,false
+        exit:West,Path to Coastal Rest Area B,West path leading to Coastal Rest Area B.,CRAB,false
+
+    room:CRAD,Coastal Rest Area D,The sea breeze is refreshing here.,false
+        area:COAST
+        exit:North,Path to Melemele Fields H,North path leading to Melemele Fields H.,MFH,false
+        exit:South,Path to Coastal Biome E,South path leading to Coastal Biome E.,CBE,false
+        exit:West,Path to Coastal Rest Area C,West path leading to Coastal Rest Area C.,CRAC,false
+
+    room:CBA,Coastal Biome A,Fairy and Rock types inhabit the coast. Blending enchantment with ruggedness.,false
+        area:COAST
+        exit:North,Path to Tropica F,North path leading to Tropica F.,TF,false
+        exit:East,Path to Coastal Biome B,East path leading to Coastal Biome B.,CBB,false
+        exit:West,Path to Pier,West path leading to Pier.,P,false
+
+    room:CBB,Coastal Biome B,Fairy and Rock types inhabit the coast. Blending enchantment with ruggedness.,false
+        area:COAST
+        exit:North,Path to Coastal Rest Area A,North path leading to Coastal Rest Area A.,CRAA,false
+        exit:East,Path to Coastal Biome C,East path leading to Coastal Biome C.,CBC,false
+        exit:West,Path to Coastal Biome A,West path leading to Coastal Biome A.,CBA,false
+
+    room:CBC,Coastal Biome C,Fairy and Rock types inhabit the coast. Blending enchantment with ruggedness.,false
+        area:COAST
+        exit:North,Path to Coastal Rest Area B,North path leading to Coastal Rest Area B.,CRAB,false
+        exit:East,Path to Coastal Biome D,East path leading to Coastal Biome D.,CBD,false
+        exit:West,Path to Coastal Biome B,West path leading to Coastal Biome B.,CBB,false
+
+    room:CBD,Coastal Biome D,Fairy and Rock types inhabit the coast. Blending enchantment with ruggedness.,false
+        area:COAST
+        exit:North,Path to Coastal Rest Area C,North path leading to Coastal Rest Area C.,CRAC,false
+        exit:East,Path to Coastal Biome E,East path leading to Coastal Biome E.,CBE,false
+        exit:West,Path to Coastal Biome C,West path leading to Coastal Biome C.,CBC,false
+
+    room:CBE,Coastal Biome E,Fairy and Rock types inhabit the coast. Blending enchantment with ruggedness.,false
+        area:COAST
+        exit:North,Path to Coastal Rest Area D,North path leading to Coastal Rest Area D.,CRAD,false
+        exit:West,Path to Coastal Biome D,West path leading to Coastal Biome D.,CBD,false
+
+    room:OVA,Ocean Vivillon (A),Water and Poison types lurk in the depths presenting a dangerous underwater challenge.,false
+        area:SEA
+        exit:North,Path to MWRA,North path leading to MWRA.,MWRA,false
+        exit:East,Path to Ocean Vivillon B,East path leading to Ocean Vivillon B.,OVB,false
+        exit:South,Path to Ocean Vivillon D,South path leading to Ocean Vivillon D.,OVD,false
+
+    room:OVB,Ocean Vivillon (B),Water and Poison types lurk in the depths presenting a dangerous underwater challenge.,false
+        area:SEA
+        exit:North,Path to MWRB,North path leading to MWRB.,MWRB,false
+        exit:East,Path to Ocean Vivillon C,East path leading to Ocean Vivillon C.,OVC,false
+        exit:South,Path to Ocean Vivillon E,South path leading to Ocean Vivillon E.,OVE,false
+        exit:West,Path to Ocean Vivillon A,West path leading to Ocean Vivillon A.,OVA,false
+
+    room:OVC,Ocean Vivillon (C),Water and Poison types lurk in the depths presenting a dangerous underwater challenge.,false
+        area:SEA
+        exit:North,Path to MWRC,North path leading to MWRC.,MWRC,false
+        exit:East,Path to TC,East path leading to TC.,TC,false
+        exit:South,Path to Ocean Vivillon F,South path leading to Ocean Vivillon F.,OVF,false
+        exit:West,Path to Ocean Vivillon B,West path leading to Ocean Vivillon B.,OVB,false
+
+    room:OVD,Ocean Vivillon (D),Water and Poison types lurk in the depths presenting a dangerous underwater challenge.,false
+        area:SEA
+        exit:North,Path to Ocean Vivillon A,North path leading to Ocean Vivillon A.,OVA,false
+        exit:East,Path to Ocean Vivillon E,East path leading to Ocean Vivillon E.,OVE,false
+        exit:South,Path to Water Gym,South path leading to Water Gym.,WG,false
+
+    room:OVE,Ocean Vivillon (E),Water and Poison types lurk in the depths presenting a dangerous underwater challenge.,false
+        area:SEA
+        exit:North,Path to Ocean Vivillon B,North path leading to Ocean Vivillon B.,OVB,false
+        exit:East,Path to Ocean Vivillon F,East path leading to Ocean Vivillon F.,OVF,false
+        exit:South,Path to Ocean Vivillon G,South path leading to Ocean Vivillon G.,OVG,false
+        exit:West,Path to Ocean Vivillon D,West path leading to Ocean Vivillon D.,OVD,false
+
+    room:OVF,Ocean Vivillon (F),Water and Poison types lurk in the depths presenting a dangerous underwater challenge.,false
+        area:SEA
+        exit:North,Path to Ocean Vivillon C,North path leading to Ocean Vivillon C.,OVC,false
+        exit:East,Path to Tropica E,East path leading to Tropica E.,TE,false
+        exit:South,Path to Ocean Vivillon H,South path leading to Ocean Vivillon H.,OVH,false
+        exit:West,Path to Ocean Vivillon E,West path leading to Ocean Vivillon E.,OVE,false
+
+    room:OVG,Ocean Vivillon (G),Water and Poison types lurk in the depths presenting a dangerous underwater challenge.,false
+        area:SEA
+        exit:North,Path to Ocean Vivillon E,North path leading to Ocean Vivillon E.,OVE,false
+        exit:East,Path to Ocean Vivillon H,East path leading to Ocean Vivillon H.,OVH,false
+        exit:West,Path to Water Gym,West path leading to Water Gym.,WG,false
+
+    room:OVH,Ocean Vivillon (H),Water and Poison types lurk in the depths presenting a dangerous underwater challenge.,false
+        area:SEA
+        exit:North,Path to Ocean Vivillon F,North path leading to Ocean Vivillon F.,OVF,false
+        exit:East,Path to Pier,East path leading to Pier.,P,false
+        exit:West,Path to Ocean Vivillon G,West path leading to Ocean Vivillon G.,OVG,false
+
+    room:P,Pier,A bustling pier filled with merchants so you are sure to find something to your liking here.,false
+        area:SEA
+        exit:North,Path to Tropica E,North path leading to Tropica E.,TE,false
+        exit:East,Path to Coastal Biome A,East path leading to Coastal Biome A.,CBA,false
+        exit:West,Path to Ocean Vivillon H,West path leading to Ocean Vivillon H.,OVH,false
+
+    room:WG,Water-Type Gym,Your final destination. Only the daring dare to enter.,true
+        area:SEA
+        exit:North,Path to Ocean Vivillon D,North path leading to Ocean Vivillon D.,OVD,false
+        exit:East,Path to Ocean Vivillon G,East path leading to Ocean Vivillon G.,OVG,false
+
+
+
+
